@@ -1,0 +1,2 @@
+/usr/bin/ar qc libparallel_hashmap_lib.a CMakeFiles/parallel_hashmap_lib.dir/parallel_hashmap/test.cpp.o
+/usr/bin/ranlib libparallel_hashmap_lib.a

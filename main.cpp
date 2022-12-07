@@ -28,7 +28,7 @@ int main() {
 
     Transaction_Table_Entry otherEntry = txnTable.at(12345);
     std::cout<<otherEntry.op_count<<"\n";*/
-    //testingParallelNodeHashMap();
-    testingParallelFlatHashMap();
+    testingParallelNodeHashMap();
+    //testingParallelFlatHashMap();
     return 0;
 }

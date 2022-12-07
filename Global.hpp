@@ -8,7 +8,7 @@
 #include <cstdint>
 #include <atomic>
 #define txnIDMask 0x00FFFFFFFFFFFFFF
-#define THREAD_NUM 8
+#define THREAD_NUM 64
 #define LAZY_UPDATE_WORKLOAD_ORDER 14
 struct Transaction_Table_Entry{
     Transaction_Table_Entry(){};

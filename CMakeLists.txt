@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 project(Concurrent_Hash_Map_Test)
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -g")
 include_directories(${PROJECT_SOURCE_DIR})
 add_library(parallel_hashmap_lib STATIC parallel_hashmap/test.cpp )
 #target_link_libraries(parallel_hashmap_lib -L./parallel_hashmap/)
