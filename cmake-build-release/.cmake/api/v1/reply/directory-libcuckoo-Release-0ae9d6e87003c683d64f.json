@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libcuckoo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/libcuckoo",
+			"exportName" : "libcuckoo-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libcuckoo::@08828ca3b7129959b3f6",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libcuckoo/CMakeFiles/Export/75bb23512b5425b712dad2372e5f21bd/libcuckoo-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/libcuckoo",
+			"paths" : 
+			[
+				"libcuckoo/libcuckoo-config.cmake",
+				"cmake-build-release/libcuckoo/libcuckoo-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/include/libcuckoo",
+			"paths" : 
+			[
+				"libcuckoo/cuckoohash_config.hh",
+				"libcuckoo/cuckoohash_map.hh",
+				"libcuckoo/cuckoohash_util.hh",
+				"libcuckoo/bucket_container.hh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libcuckoo",
+		"source" : "libcuckoo"
+	}
+}

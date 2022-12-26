@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "libcuckoo",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libcuckoo-Debug-8f15da47e9d2f3746cd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libcuckoo"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Concurrent_Hash_Map_Test",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrent_Hash_Map_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrent_Hash_Map_Test-Debug-7294979073dfa8dd3833.json",
+					"name" : "Concurrent_Hash_Map_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parallel_hashmap_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parallel_hashmap_lib-Debug-3edbc40833efdd1865cc.json",
+					"name" : "parallel_hashmap_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-debug",
+		"source" : "/home/zhou822/Concurrent-Hashmap-Experiments"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

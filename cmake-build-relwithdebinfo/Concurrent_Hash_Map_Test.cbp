@@ -5,7 +5,7 @@
 		<Option title="Concurrent_Hash_Map_Test"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\TBB\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;CMake Files\libcuckoo\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo"/>
@@ -133,7 +133,50 @@
 					<DistClean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j112 -f &quot;/home/zhou822/Concurrent-Hashmap-Experiments/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/Benchmark/Libcuckoo_Benchmark.hpp">
+			<Option target="Concurrent_Hash_Map_Test"/>
+		</Unit>
 		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/Benchmark/Parallel_Hashmap_Bench.cpp">
 			<Option target="Concurrent_Hash_Map_Test"/>
 		</Unit>
@@ -155,6 +198,18 @@
 		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\TBB\"/>
+		</Unit>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\TBB\"/>
+		</Unit>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\TBB\"/>
+		</Unit>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\TBB\"/>
+		</Unit>
 		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
 		</Unit>
@@ -166,6 +221,9 @@
 		</Unit>
 		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/zhou822/Concurrent-Hashmap-Experiments/libcuckoo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libcuckoo\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

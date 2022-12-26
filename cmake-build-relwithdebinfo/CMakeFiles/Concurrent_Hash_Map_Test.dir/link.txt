@@ -1,1 +1,1 @@
-/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/Concurrent_Hash_Map_Test.dir/main.cpp.o CMakeFiles/Concurrent_Hash_Map_Test.dir/Benchmark/Parallel_Hashmap_Bench.cpp.o -o Concurrent_Hash_Map_Test  libparallel_hashmap_lib.a 
+/usr/bin/c++ -O2 -g -DNDEBUG  -Wl,-z,stack-size=100000000 -fsanitize=address CMakeFiles/Concurrent_Hash_Map_Test.dir/main.cpp.o CMakeFiles/Concurrent_Hash_Map_Test.dir/Benchmark/Parallel_Hashmap_Bench.cpp.o -o Concurrent_Hash_Map_Test  libparallel_hashmap_lib.a 
